@@ -251,11 +251,8 @@ h6{
     left: 40px;
 }
 
-#menu-mobile{
+#nav{
     display: none;
-    position: absolute;
-    left: 20px;
-    font-size: 40px;
 }
 
 /*===========================INF CABEÇALHO===========================*/
@@ -540,6 +537,7 @@ h6{
     font-size: 12px;
 }
 
+
 @media only screen and (max-width: 1200px) {
 
     h1{
@@ -612,10 +610,6 @@ h6{
         left: 0px;
     }
 
-    #menu-mobile{
-        display: block;
-    }
-
     #logo-menu{  
         left: 100px;
     }
@@ -633,4 +627,7 @@ h6{
     .opcao-alvd{
         font-size: 20px;
     }
+
 }
+
+

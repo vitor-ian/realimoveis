@@ -585,7 +585,8 @@ h6{
     }
 
     .select-opcao{
-        width: 400px;
+        width: 380px;
+        font-size: 25px;
     }
 
     .btn-02{
@@ -622,7 +623,11 @@ h6{
         font-size: 30px;
     }
 
-    .select-opcao{
-        font-size: 25px;
+    #opcoes-lista{
+        max-width: fit-content;
+    }
+
+    .opcao-alvd{
+        font-size: 20px;
     }
 }

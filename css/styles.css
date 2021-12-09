@@ -543,8 +543,33 @@ h6{
 
 @media only screen and (max-width: 1200px) {
 
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h5{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    h6{
+        font-size: 20px;
+    }
+
     #contato-menu{
         display: none;
+    }
+
+    #img-banner{
+        width: 30vw;
+    }
+
+    #info-banner{
+        width: 50vh;
     }
 
     #inf-cabecalho{
@@ -556,15 +581,24 @@ h6{
     }
 
     #sec-encontre{
-        width: 90vw;
+        width: 95vw;
     }
 
     .select-opcao{
         width: 400px;
     }
 
+    .btn-02{
+        font-size: 20px;
+    }
+
+    #btn-busca{
+        margin-top: 100px;
+    }
+
     .btn-04{
         margin: 0px;
+        font-size: 25px;
     }
 
     #comprealugue{
@@ -581,5 +615,14 @@ h6{
 
     #logo-menu{  
         left: 100px;
+    }
+
+    .btn-03{
+        padding: 15px 30px;
+        font-size: 30px;
+    }
+
+    .select-opcao{
+        font-size: 25px;
     }
 }

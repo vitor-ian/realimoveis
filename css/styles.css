@@ -593,6 +593,8 @@ h6 {
     h6 {
         font-size: 20px;
     }
+
+    /*Banner*/
     #contato-menu {
         display: none;
     }
@@ -602,30 +604,25 @@ h6 {
     #info-banner {
         width: 40vh;
     }
+
+    /*Cebeçalho*/
     #inf-cabecalho {
         display: none;
     }
     #sup-cabecalho {
         top: 0px;
     }
+
+    #logo{
+        left: 150px;
+    }
+
+    /*Encontre*/
     #sec-encontre {
         width: 95vw;
     }
     .select-opcao {
         width: 380px;
-        font-size: 25px;
-    }
-    .btn-02 {
-        font-size: 20px;
-    }
-    #btn-busca {
-        margin-top: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .btn-04 {
-        margin: 0px;
         font-size: 25px;
     }
 
@@ -637,20 +634,28 @@ h6 {
         left: 0px;
     }
 
-    #logo-menu {
-        left: 0px;
-        display: block;
-        position: absolute;
+    /*Botoes*/
+    .btn-02 {
+        font-size: 20px;
     }
-
-    #logo{
-        left: 150px;
+    #btn-busca {
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .btn-03 {
         padding: 15px 30px;
         font-size: 30px;
     }
+    .btn-04 {
+        margin: 0px;
+        font-size: 25px;
+    }
+   
+
+    /*Lista*/
     #opcoes-lista {
         max-width: fit-content;
         overflow: scroll;
@@ -658,4 +663,23 @@ h6 {
     .opcao-alvd {
         font-size: 20px;
     }
+
+    /*Menu*/
+    
+    #logo-menu {
+        left: 0px;
+        display: block;
+        position: absolute;
+    }
+
+    .menu {
+        left: 60px;
+        top: 0px;
+    }
+    
+    .menu li ul {
+        top: 0px;
+        left: 240px;
+    }
+    
 }

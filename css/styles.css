@@ -251,6 +251,13 @@ h6{
     left: 40px;
 }
 
+#menu-mobile{
+    display: none;
+    position: absolute;
+    left: 20px;
+    font-size: 40px;
+}
+
 /*===========================INF CABEÇALHO===========================*/
 
 #inf-cabecalho{
@@ -531,4 +538,48 @@ h6{
 
 #txt-footer{
     font-size: 12px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    #contato-menu{
+        display: none;
+    }
+
+    #inf-cabecalho{
+        display: none;
+    }
+
+    #sup-cabecalho{
+        top: 0px;
+    }
+
+    #sec-encontre{
+        width: 90vw;
+    }
+
+    .select-opcao{
+        width: 400px;
+    }
+
+    .btn-04{
+        margin: 0px;
+    }
+
+    #comprealugue{
+        right: 0px;
+    }
+ 
+    #til-encontre{
+        left: 0px;
+    }
+
+    #menu-mobile{
+        display: block;
+    }
+
+    #logo-menu{  
+        left: 100px;
+    }
 }

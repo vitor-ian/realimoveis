@@ -27,58 +27,66 @@
 
 </head>
 
-
 <body>
     <!--CABEÇALHO-->
-    <header> 
+    <header>
 
-        <div id="sup-cabecalho"><!--SUPERIOR CABEÇALHO-->
+        <div id="sup-cabecalho">
+            <!--SUPERIOR CABEÇALHO-->
 
             <div id="logo-menu">
+                <i onclick="mostarmenu()" class="fa fa-bars menu-button" aria-hidden="true"></i>
+            </div>
+
+            <div id="logo">
                 <a href="#">
                     <img id="logo-princ" src="img/logo.png" alt="logo">
                 </a>
             </div>
-    
+
             <div id="contato-menu">
                 <div class="bl-menu">
                     <h4>Telefone de Contato</h4>
-    
+
                     <div class="info-menu">
                         <a class="icon-menu" href="">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                         </a>
-                        
+
                         <h3>31 3133-0484</h3>
                     </div>
                 </div>
-    
+
                 <div class="bl-menu">
                     <h4>E-mail</h4>
-                    
+
                     <div class="info-menu">
                         <a class="icon-menu" href="">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
-                        
+
                         <h3>contato@realimoveis.com</h3>
                     </div>
                 </div>
-    
+
                 <div class="bl-menu">
                     <h4>Redes Sociais</h4>
-                    
+
                     <div class="info-menu">
-                        <a class="icon-menu socials" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a class="icon-menu socials" href=""><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i></a>
                         <a class="icon-menu socials" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                        <a class="icon-menu socials" href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                        <a class="icon-menu socials" href=""><i class="fa fa-google-plus-square"
+                                aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
-        </div><!--FIM SUPERIOR CABEÇALHO-->
-        
-        <div id="inf-cabecalho"><!--INFERIOR CABEÇALHO-->
+        </div>
+        <!--FIM SUPERIOR CABEÇALHO-->
+
+        <div id="inf-cabecalho">
+            <!--INFERIOR CABEÇALHO-->
 
             <nav>
                 <ul class="menu">
@@ -86,10 +94,10 @@
                     <li>
                         <a class="titulo" href="">HOME</a>
                     </li>
-        
+
                     <li>
                         <a class="titulo" href="">PROJETOS<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-        
+
                         <ul>
                             <li><a href="">CONDOMINIO NOVAS ÁGUAS</a></li>
                             <li><a href="">RESIDENCIAL AMÉRICA</a></li>
@@ -100,20 +108,21 @@
                     <li>
                         <a class="titulo" href="">CONTATO</a>
                     </li>
-        
+
                     <li>
                         <a class="titulo" href="">FILIAIS<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-        
+
                         <ul>
                             <li><a href="">BELO HORIZONTE</a></li>
                             <li><a href="">BAHIA</a></li>
                             <li><a href="">SÃO PAULO</a></li>
                         </ul>
                     </li>
-                    
+
                     <li>
-                        <a class="titulo dest" href="">EQUIPE<i class="fa fa-chevron-down dest" aria-hidden="true"></i></a>
-        
+                        <a class="titulo dest" href="">EQUIPE<i class="fa fa-chevron-down dest"
+                                aria-hidden="true"></i></a>
+
                         <ul>
                             <li><a href="">ADMINISTRATIVO</a></li>
                             <li><a href="">VENDEDORES</a></li>
@@ -124,9 +133,10 @@
                     <li>
                         <a class="titulo" href="">SOBRE NÓS</a>
                     </li>
-                    
-                </ul><!--Fim Categorias-->
-        
+
+                </ul>
+                <!--Fim Categorias-->
+
             </nav>
 
             <div id="btn-menu">
@@ -134,9 +144,72 @@
                     Venha nos Visitar
                 </a>
             </div>
-        </div><!--FIM INFERIOR CABEÇALHO-->
+        </div>
+        <!--FIM INFERIOR CABEÇALHO-->
 
-    </header><!--FIM CABEÇALHO-->
+        <!-- MENU MOBILE -->
+        <div id="inf-cabecalho-mobile">
+            <!--INFERIOR CABEÇALHO-->
+
+            <nav>
+                <ul class="menu">
+
+                    <li>
+                        <a class="titulo" href="">HOME</a>
+                    </li>
+
+                    <li>
+                        <a class="titulo" href="">PROJETOS<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+
+                        <ul>
+                            <li><a href="">CONDOMINIO NOVAS ÁGUAS</a></li>
+                            <li><a href="">RESIDENCIAL AMÉRICA</a></li>
+                            <li><a href="">RESIDENCIAL EUROPA</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="titulo" href="">CONTATO</a>
+                    </li>
+
+                    <li>
+                        <a class="titulo" href="">FILIAIS<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+
+                        <ul>
+                            <li><a href="">BELO HORIZONTE</a></li>
+                            <li><a href="">BAHIA</a></li>
+                            <li><a href="">SÃO PAULO</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="titulo dest" href="">EQUIPE<i class="fa fa-chevron-down dest"
+                                aria-hidden="true"></i></a>
+
+                        <ul>
+                            <li><a href="">ADMINISTRATIVO</a></li>
+                            <li><a href="">VENDEDORES</a></li>
+                            <li><a href="">PROGRAMADORES</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="titulo" href="">SOBRE NÓS</a>
+                    </li>
+
+                </ul>
+                <!--Fim Categorias-->
+
+            </nav>
+
+            <div id="btn-menu">
+                <a class="btn-01" href="">
+                    Venha nos Visitar
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--FIM CABEÇALHO-->
 
 
 
@@ -145,13 +218,13 @@
         <div id="info-banner">
             <h1>623 Willow Rd, Dallas, TX</h1>
             <h2>Compre ou alugue o imóvel do seu jeito! </h2>
-            
+
             <a href="">
                 <h5>Encontrar outro imóvel</h5>
             </a>
-            
+
             <a class="btn-03" href="">SAIBA MAIS</a>
-            
+
         </div>
 
         <!--BANNER-->
@@ -174,7 +247,7 @@
 
         <div id="opcoes-lista">
 
-            
+
             <div class="opcao">
                 <select id="estado" class="select-opcao">
                     <option value="na">Estado</option>
@@ -262,14 +335,14 @@
                         <h6>Buscar por código</h6>
                     </div>
                 </a>
-                
+
                 <a href="">
                     <div id="msg-inf">
                         <i class="fa fa-map" aria-hidden="true"></i>
                         <h6>Buscar no mapa</h6>
                     </div>
                 </a>
-                
+
             </div>
         </div>
     </section>
@@ -277,7 +350,8 @@
     <!--FIM ENCONTRE SEU IMÓVEL-->
 
 
-    <footer><!--FOOTER-->
+    <footer>
+        <!--FOOTER-->
         <div id="barra-newsletter">
             <div id="text-newsletter">
                 <p id="bold-text-newsletter">Fale Conosco</p>
@@ -294,24 +368,25 @@
                         <input class="form-news" type="email" placeholder="E-mail">
                     </div>
 
-                    <div>  
-                        <textarea placeholder="Menssagem" type="text" id="msm-forms" name="message"></textarea>  
+                    <div>
+                        <textarea placeholder="Menssagem" type="text" id="msm-forms" name="message"></textarea>
                     </div>
-                    
+
                     <button class="btn-02" type="submit">Enviar</button>
-                    
+
                 </form>
             </div>
-            
+
         </div>
 
         <a href="#">
             <img id="logo-footer" src="img/logbranca.png" alt="">
         </a>
-        
+
         <p id="txt-footer">2021 Todos os direitos reservados | Real Imóveis</p>
         <a id="btn-vitor" target="_blank" href="https://vitor-ian.github.io/portfolio/">Vítor Ian</a>
-    </footer><!--Fim Footer-->
+    </footer>
+    <!--Fim Footer-->
 
 </body>
 

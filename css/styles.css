@@ -16,15 +16,16 @@ a {
     color: #666666;
 }
 
-a:hover{
+a:hover {
     color: #4e4e4e;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -33,41 +34,42 @@ textarea {
     resize: none;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: rgb(217,217,217);
+    background: rgb(217, 217, 217);
 }
 
-#btn-vitor{
+#btn-vitor {
     background-color: rgb(49, 49, 49);
     color: white;
     padding: 10px 25px;
     margin: 10px;
-    border-radius:3px;
+    border-radius: 3px;
     font-size: 12px;
     font-weight: 200;
 }
 
-#btn-vitor:hover{
+#btn-vitor:hover {
     background-color: rgb(58, 58, 58);
 }
 
+
 /*===========================AJUSTES PROJETO===========================*/
 
-header{
+header {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(217,217,217);
+    background-color: rgb(217, 217, 217);
     height: 180px;
 }
 
-section{
+section {
     width: 1280px;
     display: flex;
     align-items: center;
@@ -75,7 +77,7 @@ section{
     padding: 20px;
 }
 
-footer{
+footer {
     width: 100%;
     display: flex;
     align-items: center;
@@ -86,58 +88,58 @@ footer{
     padding: 0px 0px 20px 0px;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-h1{
+h1 {
     color: white;
     font-size: 60px;
 }
 
-h2{
+h2 {
     color: white;
     font-size: 18px;
 }
 
-h3{
+h3 {
     color: #666666;
     margin: 10px;
     font-size: 18px;
 }
 
-h4{
+h4 {
     color: #666666;
     font-size: 14px;
 }
 
-h5{
+h5 {
     margin: 20px 0px;
     font-size: 16px;
     color: #ffbb00;
     text-decoration: underline;
 }
 
-h5:hover{
+h5:hover {
     color: #ce9701;
 }
 
-h6{
+h6 {
     font-size: 14px;
     margin: 0px 10px;
 }
 
-#sec-princ{
+#sec-princ {
     display: flex;
     align-items: baseline;
-    justify-content:center;
+    justify-content: center;
     flex-direction: row;
 }
 
-.btn-01{
+.btn-01 {
     background-color: #3673C6;
     font-size: 14px;
     color: white;
@@ -146,16 +148,16 @@ h6{
     margin: 10px;
     height: 50px;
     width: 150px;
-    border-radius:3px;
+    border-radius: 3px;
 }
 
-.btn-01:hover{
+.btn-01:hover {
     cursor: pointer;
     color: white;
     background-color: #5188d6;
 }
 
-.btn-02{
+.btn-02 {
     background-color: #3673C6;
     color: white;
     border: 2px solid white;
@@ -164,50 +166,51 @@ h6{
     margin: 10px;
     height: 50px;
     width: 150px;
-    border-radius:3px;
+    border-radius: 3px;
 }
 
-.btn-02:hover{
+.btn-02:hover {
     cursor: pointer;
     color: #3673C6;
     background-color: white;
 }
 
-.btn-03{
+.btn-03 {
     background-color: none;
     color: white;
     border: 2px solid white;
     font-weight: bold;
     padding: 10px 25px;
     margin: 10px 0px;
-    border-radius:3px;
+    border-radius: 3px;
 }
 
-.btn-03:hover{
+.btn-03:hover {
     cursor: pointer;
     color: #3673C6;
     background-color: white;
 }
 
-.btn-04{
+.btn-04 {
     background-color: #ffbb00;
     font-size: 14px;
     color: white;
     margin-left: 45px;
     font-weight: bold;
     padding: 20px 150px;
-    border-radius:3px;
+    border-radius: 3px;
 }
 
-.btn-04:hover{
+.btn-04:hover {
     cursor: pointer;
     color: white;
     background-color: #ce9701;
 }
 
+
 /*===========================CABEÇALHO===========================*/
 
-#sup-cabecalho{
+#sup-cabecalho {
     width: 100%;
     display: flex;
     align-items: center;
@@ -216,11 +219,11 @@ h6{
     top: 25px;
 }
 
-#logo-princ{
+#logo-princ {
     width: 150px;
 }
 
-#contato-menu{
+#contato-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,36 +231,73 @@ h6{
     right: 40px;
 }
 
-.bl-menu{
+.bl-menu {
     margin: 40px;
 }
 
-.info-menu{
+.info-menu {
     display: flex;
     align-items: center;
     justify-content: left;
 }
 
-.icon-menu{
+.icon-menu {
     font-size: 20px;
 }
 
-.socials{
+.socials {
     margin: 10px 10px 10px 0px;
 }
 
-#logo-menu{
+#logo-menu {
+    display: none;
+}
+
+#logo-menu {
+    white-space: break-spaces;
+}
+
+#logo{
     position: absolute;
     left: 40px;
 }
 
-#nav{
+.menu-button {
+    margin: auto;
+    font-size: xx-large !important;
+    display: block;
+}
+
+#inf-cabecalho-mobile {
+    display: none;
+    z-index: 1;
+    top: 110px;
+    position: absolute;
+    left: 0;
+}
+
+#inf-cabecalho-mobile ul:nth-child() {
+    display: flex;
+    flex-direction: column;
+}
+
+#inf-cabecalho-mobile li {
+    background-color: white;
+    min-width: 15rem;
+}
+
+.active {
+    display: flex !important;
+}
+
+#nav {
     display: none;
 }
 
+
 /*===========================INF CABEÇALHO===========================*/
 
-#inf-cabecalho{
+#inf-cabecalho {
     display: flex;
     align-items: center;
     width: 90vw;
@@ -268,80 +308,82 @@ h6{
     z-index: 1;
 }
 
-.menu{
+.menu {
     position: absolute;
     left: 10px;
     top: 0px;
     height: 80px;
 }
 
-.menu li{
-    position:relative;
-    float:left;
+.menu li {
+    position: relative;
+    float: left;
     font-weight: 600;
     padding: 0px 40px;
     font-size: 14px
 }
 
-.menu li a{
-    color:rgb(53, 53, 53);
-    padding:10px 0px;
-    display:block;
+.menu li a {
+    color: rgb(53, 53, 53);
+    padding: 10px 0px;
+    display: block;
     padding: 32px 0px;
 }
 
-.menu li a:hover{
-    color:#3673C6;
+.menu li a:hover {
+    color: #3673C6;
 }
 
-.menu li ul{
-    position:absolute;
-    top:80px;
-    left:0px;
-    background-color:#fff;
-    display:none;
+.menu li ul {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: #fff;
+    display: none;
     border-left: 5px solid #3673C6;
 }
 
-.menu li:hover ul, .menu li.over ul{
-    display:block;
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
 }
 
-.menu li ul li{
-    display:block;
+.menu li ul li {
+    display: block;
     width: 330px;
     font-weight: 400;
 }
 
-.menu li .titulo{
+.menu li .titulo {
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
 }
 
-.menu li .titulo i{
+.menu li .titulo i {
     font-size: 12px;
     padding: 0px 5px;
     color: black;
 }
 
-#btn-menu{
+#btn-menu {
     position: absolute;
     right: 10px;
 }
 
-.dest{
+.dest {
     color: #3673C6 !important;
 }
 
-.dest:hover{
+.dest:hover {
     color: #5188d6;
 }
 
+
 /*===========================BANNER===========================*/
 
-#sec-princ{
+#sec-princ {
     width: 100%;
     height: 700px;
     display: flex;
@@ -351,17 +393,15 @@ h6{
     background-color: #3673C6;
     background-image: url(../img/background.png);
     background-size: cover;
-
 }
 
-#info-banner{
+#info-banner {
     width: 22vw;
     position: absolute;
     left: 40px;
-    
 }
 
-#img-banner{
+#img-banner {
     position: absolute;
     right: 0px;
     top: 0px;
@@ -371,9 +411,10 @@ h6{
     background-size: cover;
 }
 
+
 /*===========================ENCONTRE SEU IMOVEL===========================*/
 
-#sec-encontre{
+#sec-encontre {
     background-color: white;
     width: 1200px;
     border-radius: 20px;
@@ -381,7 +422,7 @@ h6{
     padding: 40px;
 }
 
-#opcoes-lista{
+#opcoes-lista {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -393,20 +434,20 @@ h6{
     padding-top: 20px;
 }
 
-#inf-inf{
+#inf-inf {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#ct-msg-inf{
+#ct-msg-inf {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#msg-inf{
+#msg-inf {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -414,21 +455,21 @@ h6{
     margin: 0px 40px;
 }
 
-.opcao{
+.opcao {
     display: flex;
     align-items: center;
     justify-content: left;
     margin: 20px;
 }
 
-.select-opcao{
+.select-opcao {
     padding: 20px;
     font-size: 16px;
     width: 490px;
     border-bottom: 1px solid rgb(221, 221, 221);
 }
 
-.opcao-alvd{
+.opcao-alvd {
     padding: 20px;
     font-size: 16px;
     width: 150px;
@@ -438,14 +479,14 @@ h6{
     font-weight: 600;
 }
 
-#til-encontre{
+#til-encontre {
     color: #4e4e4e;
     font-size: 30px;
     position: absolute;
     left: 30px;
 }
 
-#top-encontre{
+#top-encontre {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -454,24 +495,25 @@ h6{
     margin: 40px 0px;
 }
 
-#comprealugue{
+#comprealugue {
     position: absolute;
     right: 30px;
 }
 
-#btn-busca{
+#btn-busca {
     width: 100%;
     margin: 40px 0px 60px 0px;
 }
 
 
 /*===========================FOOTER===========================*/
-#logo-footer{
+
+#logo-footer {
     height: 70px;
     margin: 20px;
 }
 
-.item-social{
+.item-social {
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -483,7 +525,7 @@ h6{
     justify-content: center;
 }
 
-#newsletter{
+#newsletter {
     margin: 0px 80px;
     display: flex;
     align-items: center;
@@ -491,7 +533,7 @@ h6{
     flex-direction: column;
 }
 
-#barra-newsletter{
+#barra-newsletter {
     background-color: #3673C6;
     padding: 20px;
     margin-bottom: 20px;
@@ -502,19 +544,19 @@ h6{
     flex-direction: column;
 }
 
-#text-newsletter{
+#text-newsletter {
     font-size: 16px;
     width: 300px;
     margin: 20px;
     text-align: center;
 }
 
-#bold-text-newsletter{
+#bold-text-newsletter {
     font-size: 30px;
     font-weight: bold;
 }
 
-.form-news{
+.form-news {
     width: 250px;
     padding: 15px;
     margin: 5px;
@@ -523,7 +565,7 @@ h6{
     border-radius: 5px;
 }
 
-#msm-forms{
+#msm-forms {
     width: 514px;
     height: 70px;
     padding: 15px;
@@ -533,101 +575,87 @@ h6{
     font-family: 'Roboto', sans-serif;
 }
 
-#txt-footer{
+#txt-footer {
     font-size: 12px;
 }
 
-
 @media only screen and (max-width: 1200px) {
-
-    h1{
+    h1 {
         font-size: 50px;
     }
-
-    h2{
+    h2 {
         font-size: 28px;
     }
-
-    h5{
+    h5 {
         font-size: 22px;
         margin-bottom: 50px;
     }
-
-    h6{
+    h6 {
         font-size: 20px;
     }
-
-    #contato-menu{
+    #contato-menu {
         display: none;
     }
-
-    #img-banner{
+    #img-banner {
         width: 30vw;
     }
-
-    #info-banner{
+    #info-banner {
         width: 40vh;
     }
-
-    #inf-cabecalho{
+    #inf-cabecalho {
         display: none;
     }
-
-    #sup-cabecalho{
+    #sup-cabecalho {
         top: 0px;
     }
-
-    #sec-encontre{
+    #sec-encontre {
         width: 95vw;
     }
-
-    .select-opcao{
+    .select-opcao {
         width: 380px;
         font-size: 25px;
     }
-
-    .btn-02{
+    .btn-02 {
         font-size: 20px;
     }
-
-    #btn-busca{
+    #btn-busca {
         margin-top: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
-    .btn-04{
+    .btn-04 {
         margin: 0px;
         font-size: 25px;
     }
 
-    #comprealugue{
+    #comprealugue {
         right: 0px;
     }
- 
-    #til-encontre{
+
+    #til-encontre {
         left: 0px;
     }
 
-    #logo-menu{  
-        left: 100px;
+    #logo-menu {
+        left: 0px;
+        display: block;
+        position: absolute;
     }
 
-    .btn-03{
+    #logo{
+        left: 150px;
+    }
+
+    .btn-03 {
         padding: 15px 30px;
         font-size: 30px;
     }
-
-    #opcoes-lista{
+    #opcoes-lista {
         max-width: fit-content;
         overflow: scroll;
     }
-
-    .opcao-alvd{
+    .opcao-alvd {
         font-size: 20px;
     }
-
 }
-
-
